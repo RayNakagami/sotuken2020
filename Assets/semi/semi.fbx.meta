@@ -1,44 +1,116 @@
 fileFormatVersion: 2
 guid: 17b1d3a0717115f4e9248e99fe241e1a
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: ashi1.L
-    100002: ashi1.R
-    100004: ashi2.L
-    100006: ashi2.R
-    100008: ashi3.L
-    100010: ashi3.R
-    100012: Body
-    100014: hane.L
-    100016: hane.R
-    100018: Head
-    100020: kuchi
-    100022: me.L
-    100024: me.R
-    100026: //RootNode
-    100028: semi
-    100030: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
-    400000: ashi1.L
-    400002: ashi1.R
-    400004: ashi2.L
-    400006: ashi2.R
-    400008: ashi3.L
-    400010: ashi3.R
-    400012: Body
-    400014: hane.L
-    400016: hane.R
-    400018: Head
-    400020: kuchi
-    400022: me.L
-    400024: me.R
-    400026: //RootNode
-    400028: semi
-    400030: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
-    2100000: Material
-    4300000: semi
-    9500000: //RootNode
-    13700000: semi
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ashi1.L
+  - first:
+      1: 100002
+    second: ashi1.R
+  - first:
+      1: 100004
+    second: ashi2.L
+  - first:
+      1: 100006
+    second: ashi2.R
+  - first:
+      1: 100008
+    second: ashi3.L
+  - first:
+      1: 100010
+    second: ashi3.R
+  - first:
+      1: 100012
+    second: Body
+  - first:
+      1: 100014
+    second: hane.L
+  - first:
+      1: 100016
+    second: hane.R
+  - first:
+      1: 100018
+    second: Head
+  - first:
+      1: 100020
+    second: kuchi
+  - first:
+      1: 100022
+    second: me.L
+  - first:
+      1: 100024
+    second: me.R
+  - first:
+      1: 100026
+    second: //RootNode
+  - first:
+      1: 100028
+    second: semi
+  - first:
+      1: 100030
+    second: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+  - first:
+      4: 400000
+    second: ashi1.L
+  - first:
+      4: 400002
+    second: ashi1.R
+  - first:
+      4: 400004
+    second: ashi2.L
+  - first:
+      4: 400006
+    second: ashi2.R
+  - first:
+      4: 400008
+    second: ashi3.L
+  - first:
+      4: 400010
+    second: ashi3.R
+  - first:
+      4: 400012
+    second: Body
+  - first:
+      4: 400014
+    second: hane.L
+  - first:
+      4: 400016
+    second: hane.R
+  - first:
+      4: 400018
+    second: Head
+  - first:
+      4: 400020
+    second: kuchi
+  - first:
+      4: 400022
+    second: me.L
+  - first:
+      4: 400024
+    second: me.R
+  - first:
+      4: 400026
+    second: //RootNode
+  - first:
+      4: 400028
+    second: semi
+  - first:
+      4: 400030
+    second: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+  - first:
+      21: 2100000
+    second: Material
+  - first:
+      43: 4300000
+    second: semi
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: semi
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -46,7 +118,7 @@ ModelImporter:
       name: Material
     second: {fileID: 2100000, guid: 326540d4a3926364992cabd243ccccad, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -63,7 +135,8 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 1
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -77,6 +150,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 0
@@ -84,10 +159,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -99,12 +177,95 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: semi(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      parentName: semi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.050000012, y: 0.050000012, z: 0.050000012}
+    - name: Head
+      parentName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+      position: {x: -0, y: 1.0991937, z: 0.40726614}
+      rotation: {x: 0.8874278, y: 0.01666865, z: 0.23296516, w: 0.39739326}
+      scale: {x: 1, y: 1.0000001, z: 1.0000216}
+    - name: Body
+      parentName: Head
+      position: {x: -1.8189894e-14, y: 0.9524335, z: -0.000000019073486}
+      rotation: {x: 0.000000021726105, y: 0.9986553, z: -0.051842596, w: -0.0000047321505}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: ashi1.L
+      parentName: Head
+      position: {x: 0.16057575, y: 0.5002679, z: 0.27206793}
+      rotation: {x: 0.75873554, y: 0.5989899, z: 0.102707796, w: 0.2344837}
+      scale: {x: 0.9999998, y: 0.9999995, z: 0.99999994}
+    - name: ashi2.L
+      parentName: Head
+      position: {x: 0.1707695, y: 0.88204545, z: 0.26028135}
+      rotation: {x: 0.22007887, y: 0.9634921, z: 0.1524731, w: 0.0004981452}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+    - name: ashi3.L
+      parentName: Head
+      position: {x: 0.14088467, y: 1.2822255, z: 0.17196843}
+      rotation: {x: 0.22040637, y: 0.97272474, z: 0.051974382, w: 0.050262596}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: hane.L
+      parentName: Head
+      position: {x: 0.33060157, y: 0.639907, z: -0.12170782}
+      rotation: {x: 0.06194248, y: 0.9977415, z: 0.0054771453, w: 0.02539686}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: kuchi
+      parentName: Head
+      position: {x: 0.0000009224619, y: 0.2848448, z: 0.2149398}
+      rotation: {x: 0.00000009844865, y: 0.9977862, z: 0.06650363, w: -0.000002817001}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: ashi1.R
+      parentName: Head
+      position: {x: -0.16057338, y: 0.5002679, z: 0.2720693}
+      rotation: {x: 0.75873524, y: -0.59898883, z: -0.10271093, w: 0.23448607}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.99999994}
+    - name: ashi2.R
+      parentName: Head
+      position: {x: -0.17076728, y: 0.8820453, z: 0.26028278}
+      rotation: {x: -0.22007823, y: 0.9634921, z: 0.15247406, w: -0.0005022107}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.99999994}
+    - name: ashi3.R
+      parentName: Head
+      position: {x: -0.14088319, y: 1.2822255, z: 0.17196964}
+      rotation: {x: -0.22040622, y: 0.97272456, z: 0.051975127, w: -0.050266437}
+      scale: {x: 1, y: 0.9999995, z: 1}
+    - name: hane.R
+      parentName: Head
+      position: {x: -0.33060256, y: 0.639907, z: -0.12170499}
+      rotation: {x: -0.061942447, y: 0.99774146, z: 0.0054773237, w: -0.02539902}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: me.L
+      parentName: Head
+      position: {x: 0.2948327, y: 0.20651197, z: -0.027262656}
+      rotation: {x: 0.9386817, y: 0.16424942, z: 0.29718304, w: -0.05984262}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1}
+    - name: me.R
+      parentName: Head
+      position: {x: -0.29483292, y: 0.20651194, z: -0.027260125}
+      rotation: {x: 0.9386804, y: -0.16424996, z: -0.29718697, w: -0.05984196}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1}
+    - name: semi
+      parentName: semi(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.050000012, y: 0.050000012, z: 0.050000012}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -112,14 +273,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
