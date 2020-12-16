@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Event : MonoBehaviour
 {
     int score;
@@ -22,9 +22,9 @@ public class Event : MonoBehaviour
 
     }
 
-    void ChangeScore()
+    public void AddScore()
     {
         score++;
-        scoreBord = "SCORE:" + score.ToString();
+        scoreBord.text = "SCORE:" + score.ToString();
     }
 }
