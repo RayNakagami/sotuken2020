@@ -1422,13 +1422,13 @@ MonoBehaviour:
     autoRotation: 0
     spaceType: 0
     parent: {fileID: 0}
-    position: {x: -0.3826179, y: 0.7085502, z: -7.042279}
-    rotation: {x: 0.27393267, y: 0.57369804, z: -0.34512922, w: 0.6904473}
+    position: {x: -0.38030255, y: 0.44799775, z: -7.1526113}
+    rotation: {x: 0.1743701, y: 0.65757746, z: -0.31116122, w: 0.6636006}
     target: {fileID: 0}
     offset: {x: 0, y: 0, z: 0}
     headWeight: 1
     eyesWeight: 0
-    swivelRotation: -90.10034
+    swivelRotation: -87.73715
     swivelPosition: {x: 0, y: 0, z: 0}
   - enable: 0
     _fixed: 0
