@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moveup : MonoBehaviour
+public class Moveup_semi : MonoBehaviour
 {
     Vector3 pos;
     // Start is called before the first frame update
