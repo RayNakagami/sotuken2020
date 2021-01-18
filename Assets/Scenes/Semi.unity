@@ -1549,8 +1549,8 @@ MonoBehaviour:
     autoRotation: 0
     spaceType: 0
     parent: {fileID: 0}
-    position: {x: -0.37976635, y: 0.44793886, z: -7.138293}
-    rotation: {x: 0.16878355, y: 0.6693292, z: -0.314226, w: 0.65174586}
+    position: {x: -0.42747623, y: 0.5360289, z: -6.958406}
+    rotation: {x: 0.18852478, y: 0.55174124, z: -0.34684774, w: 0.7346677}
     target: {fileID: 0}
     offset: {x: 0, y: 0, z: 0}
     headWeight: 1
