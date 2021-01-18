@@ -195,7 +195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &306983108
 AudioSource:
   m_ObjectHideFlags: 0
@@ -304,7 +304,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &308929053 stripped
 SkinnedMeshRenderer:
@@ -485,7 +485,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &945434608
 PrefabInstance:
@@ -636,7 +636,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1068077340
 PrefabInstance:
@@ -923,7 +923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1312,7 +1312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1549,8 +1549,8 @@ MonoBehaviour:
     autoRotation: 0
     spaceType: 0
     parent: {fileID: 0}
-    position: {x: -0.38058603, y: 0.44793886, z: -7.158091}
-    rotation: {x: 0.16878338, y: 0.6693294, z: -0.31422603, w: 0.6517456}
+    position: {x: -0.37976635, y: 0.44793886, z: -7.138293}
+    rotation: {x: 0.16878355, y: 0.6693292, z: -0.314226, w: 0.65174586}
     target: {fileID: 0}
     offset: {x: 0, y: 0, z: 0}
     headWeight: 1
@@ -1630,7 +1630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: 17b1d3a0717115f4e9248e99fe241e1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
