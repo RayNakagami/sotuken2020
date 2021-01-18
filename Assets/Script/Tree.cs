@@ -5,12 +5,16 @@ using UnityEngine;
 public class Tree : MonoBehaviour
 {
     public GameObject EventListner;
+    public GameObject semi;
+
+    bool isSemi;
     // eventListnerScript script;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        isSemi = true;
+        semi.SetActive(true);
     }
 
     // Update is called once per frame
@@ -22,10 +26,22 @@ public class Tree : MonoBehaviour
     {
         if (C.gameObject.name == "SD_unitychan")
         {
-            EventListner.GetComponent<Event>().AddScore();
+            if (isSemi)
+            {
+                EventListner.GetComponent<Event>().AddScore();
+                isSemi = false;
+                semi.SetActive(false);
+            }
         }
-        Debug.Log(C.gameObject.name);
-        Debug.Log("A");
+    }
+
+    public void SetSemi()
+    {
+        if (!isSemi)
+        {
+            isSemi = true;
+            semi.SetActive(true);
+        }
     }
 
 }
