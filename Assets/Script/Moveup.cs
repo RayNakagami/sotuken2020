@@ -9,7 +9,6 @@ public class Moveup : MonoBehaviour
     void Start()
     {
         pos = this.gameObject.transform.position;
-
     }
 
     // Update is called once per frame
@@ -21,4 +20,5 @@ public class Moveup : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow)) pos.z -= 0.1f;
         this.gameObject.transform.position = this.pos;
     }
+
 }
