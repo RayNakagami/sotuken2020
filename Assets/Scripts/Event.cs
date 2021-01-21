@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class Event : MonoBehaviour
 {
     int score;
     float seconds;
+    float timeup;
     private Text scoreBord;
 
     public GameObject textbox;
@@ -19,13 +22,22 @@ public class Event : MonoBehaviour
     {
         this.seconds = 0.0f;
         this.score = 0;
+        this.timeup = 0.0f;
         this.scoreBord = textbox.GetComponent<Text>();
     }
 
     // Update is called once per frame
+
+    void scoreScene()
+    {
+        PlayerPrefs.SetInt("SCORE", score);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("end");
+    }
     void Update()
     {
         seconds += Time.deltaTime;
+        timeup += Time.deltaTime;
         if (seconds >= 2)
         {
             int a = (int)(Random.Range(0, 4));
@@ -52,6 +64,8 @@ public class Event : MonoBehaviour
                 // Debug.Log(a);
             }
         }
+        if (timeup >= 15)
+            scoreScene();
     }
 
     public void AddScore()

@@ -5,11 +5,12 @@ using UnityEngine;
 public class Moveup : MonoBehaviour
 {
     Vector3 pos;
+
     // Start is called before the first frame update
     void Start()
     {
         pos = this.gameObject.transform.position;
-        Debug.Log("A");
+        // Debug.Log("A");
     }
 
     // Update is called once per frame
