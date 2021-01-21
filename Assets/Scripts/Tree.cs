@@ -15,6 +15,7 @@ public class Tree : MonoBehaviour
     {
         isSemi = true;
         semi.SetActive(true);
+        // Debug.Log("s");
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class Tree : MonoBehaviour
     {
 
     }
-    void OnCollisionEnter(Collision C)
+    void OnCollisionStay(Collision C)
     {
         if (C.gameObject.name == "SD_unitychan")
         {
@@ -31,8 +32,11 @@ public class Tree : MonoBehaviour
                 EventListner.GetComponent<Event>().AddScore();
                 isSemi = false;
                 semi.SetActive(false);
+                Debug.Log(semi.gameObject.name);
             }
         }
+        // Debug.Log(C.gameObject.name);
+        // Debug.Log(semi.gameObject.name);
     }
 
     public void SetSemi()
